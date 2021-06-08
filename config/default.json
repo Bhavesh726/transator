@@ -1,0 +1,14 @@
+{
+	"allowedOrigins": [], // CORS
+	"blacklistedDomains": [],
+	"deproxifyURLs": false, // Automatically try deproxified versions of URLs
+	"identifierSearchLambda": "", // Identifier search Lambda function for text search
+	"port": 1969,
+	"host": "0.0.0.0", // host to listen on
+	"textSearchTimeout": 5,
+	"translators": {
+		"CrossrefREST.email": "" // Pass an email to Crossref REST API to utilize the faster servers pool
+	},
+	"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/61.0",
+	"translatorsDirectory": "./modules/translators"
+}
